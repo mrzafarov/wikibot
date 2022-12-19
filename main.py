@@ -1,16 +1,12 @@
 import logging
 import wikipedia
-
 from aiogram import Bot, Dispatcher, executor, types
 
 API_TOKEN = 'BOTINGIZNING API TOKENI'
 
 wikipedia.set_lang("uz")
 
-
 logging.basicConfig(level=logging.INFO)
-
-
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
