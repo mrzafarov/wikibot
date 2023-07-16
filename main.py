@@ -2,7 +2,7 @@ import logging
 import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = 'BOTINGIZNING API TOKENI'
+API_TOKEN = 'BOT API TOKENI'
 
 wikipedia.set_lang("uz")
 
