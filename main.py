@@ -1,7 +1,7 @@
 import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = '6764781769:AAE6g4k5TXpmrDn24P2LNsz6R7sr8zM5Zqw'
+API_TOKEN = 'BOT TOKEN HERE'
 
 wikipedia.set_lang("uz")
 
